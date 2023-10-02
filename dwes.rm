@@ -65,56 +65,36 @@ e) Se han utilizado conjuntos de datos para almacenar la información.
 f) Se han creado aplicaciones web que permitan la actualización y laeliminación de información disponible en una base de datos.
 g) Se han probado y documentado las aplicaciones web.
 
-7. Desarrolla servicios web reutilizables y accesibles mediante protocolos
-web, verificando su funcionamiento.
+7. Desarrolla servicios web reutilizables y accesibles mediante protocolos web, verificando su funcionamiento.
 Criterios de evaluación:
-a) Se han reconocido las características propias y el ámbito de aplicación de
-los servicios web.
-b) Se han reconocido las ventajas de utilizar servicios web para proporcionar
-acceso a funcionalidades incorporadas a la lógica de negocio de una aplicación.
-c) Se han identificado las tecnologías y los protocolos implicados en el
-consumo de servicios web.
-d) Se han utilizado los estándares y arquitecturas más difundidos e
-implicados en el desarrollo de servicios web.
+a) Se han reconocido las características propias y el ámbito de aplicación de los servicios web.
+b) Se han reconocido las ventajas de utilizar servicios web para proporcionar acceso a funcionalidades incorporadas a la lógica de negocio de una aplicación.
+c) Se han identificado las tecnologías y los protocolos implicados en el consumo de servicios web.
+d) Se han utilizado los estándares y arquitecturas más difundidos e implicados en el desarrollo de servicios web.
 e) Se ha programado un servicio web.
 f) Se ha verificado el funcionamiento del servicio web.
 g) Se ha consumido el servicio web.
 h) Se ha documentado un servicio web.
-8. Genera páginas web dinámicas analizando y utilizando tecnologías y
-frameworks del servidor web que añadan código al lenguaje de marcas.
+
+8. Genera páginas web dinámicas analizando y utilizando tecnologías y frameworks del servidor web que añadan código al lenguaje de marcas.
 Criterios de evaluación:
-a) Se han identificado las diferencias entre la ejecución de código en el
-servidor y en el cliente web.
-b) Se han reconocido las ventajas de unir ambas tecnologías en el proceso
-de desarrollo de programas.
-c) Se han identificado las tecnologías y frameworks relacionadas con la
-generación por parte del servidor de páginas web con guiones embebidos.
-d) Se han utilizado estas tecnologías y frameworks para generar páginas
-web que incluyan interacción con el usuario.
-e) Se han utilizado estas tecnologías y frameworks, para generar páginas
-web que incluyan verificación de formularios.
-f) Se han utilizado estas tecnologías y frameworks para generar páginas web
-que incluyan modificación dinámica de su contenido y su estructura.
-g) Se han aplicado estas tecnologías y frameworks en la programación de
-aplicaciones web.
-9. Desarrolla aplicaciones web híbridas seleccionando y utilizando
-tecnologías, frameworks servidor y repositorios heterogéneos de información.
+a) Se han identificado las diferencias entre la ejecución de código en el servidor y en el cliente web.
+b) Se han reconocido las ventajas de unir ambas tecnologías en el proceso de desarrollo de programas.
+c) Se han identificado las tecnologías y frameworks relacionadas con la generación por parte del servidor de páginas web con guiones embebidos.
+d) Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan interacción con el usuario.
+e) Se han utilizado estas tecnologías y frameworks, para generar páginas web que incluyan verificación de formularios.
+f) Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan modificación dinámica de su contenido y su estructura.
+g) Se han aplicado estas tecnologías y frameworks en la programación de aplicaciones web.
+
+9. Desarrolla aplicaciones web híbridas seleccionando y utilizando tecnologías, frameworks servidor y repositorios heterogéneos de información.
 Criterios de evaluación:
-a) Se han reconocido las ventajas que proporciona la reutilización de código
-y el aprovechamiento de información ya existente.
-b) Se han identificado tecnologías y frameworks aplicables en la creación de
-aplicaciones web híbridas.
-c) Se ha creado una aplicación web que recupere y procese repositorios de
-información ya existentes.
-d) Se han creado repositorios específicos a partir de información existente en
-almacenes de información.
-e) Se han utilizado librerías de código y frameworks para incorporar
-funcionalidades específicas a una aplicación web.
-f) Se han programado servicios y aplicaciones web utilizando como base
-información y código generados por terceros.
-g) Se han analizado y utilizado librerías de código relacionadas con Big Data
-e inteligencia de negocios, para incorporar análisis e inteligencia de datos
-proveniente de repositorios.
+a) Se han reconocido las ventajas que proporciona la reutilización de código y el aprovechamiento de información ya existente.
+b) Se han identificado tecnologías y frameworks aplicables en la creación de aplicaciones web híbridas.
+c) Se ha creado una aplicación web que recupere y procese repositorios de información ya existentes.
+d) Se han creado repositorios específicos a partir de información existente en almacenes de información.
+e) Se han utilizado librerías de código y frameworks para incorporar funcionalidades específicas a una aplicación web.
+f) Se han programado servicios y aplicaciones web utilizando como base información y código generados por terceros.
+g) Se han analizado y utilizado librerías de código relacionadas con Big Data e inteligencia de negocios, para incorporar análisis e inteligencia de datos proveniente de repositorios.
 h) Se han probado, depurado y documentado las aplicaciones generadas
 
 
