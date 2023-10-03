@@ -15,7 +15,7 @@ e) Se han clasificado los lenguajes de programación, identificando sus caracter
 f) Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en el desarrollo de software.
 g) Se han identificado las características y escenarios de uso de las metodologías ágiles de desarrollo de software.
 
-3. Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.
+2. Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.
 Criterios de evaluación:
 a) Se han instalado entornos de desarrollo, propietarios y libres.
 b) Se han añadido y eliminado módulos en el entorno de desarrollo.
@@ -25,7 +25,7 @@ e) Se han generado ejecutables a partir de código fuente de diferentes lenguaje
 f) Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo.
 g) Se han identificado las características comunes y específicas de diversos entornos de desarrollo.
 
-4. Verifica el funcionamiento de programas diseñando y realizando pruebas.
+3. Verifica el funcionamiento de programas diseñando y realizando pruebas.
 Criterios de evaluación:
 a) Se han identificado los diferentes tipos de pruebas.
 b) Se han definido casos de prueba.
@@ -40,7 +40,7 @@ i) Se han documentado las incidencias detectadas.
 j) Se han utilizado dobles de prueba para aislar los componentes durante las pruebas
 
 
-5. Optimiza código empleando las herramientas disponibles en el entorno de
+4. Optimiza código empleando las herramientas disponibles en el entorno de
 desarrollo.
 Criterios de evaluación:
 a) Se han identificado los patrones de refactorización más usuales.
@@ -53,7 +53,7 @@ g) Se han utilizado herramientas del entorno de desarrollo para documentar las c
 h) Se han utilizado repositorios remotos para el desarrollo de código colaborativo.
 i) Se han utilizado herramientas para la integración continua del código.
 
-6. Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.
+5. Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.
 Criterios de evaluación:
 a) Se han identificado los conceptos básicos de la programación orientada a objetos.
 b) Se han utilizado herramientas para la elaboración de diagramas de clases.
@@ -62,7 +62,7 @@ d) Se han trazado diagramas de clases a partir de las especificaciones de las mi
 e) Se ha generado código a partir de un diagrama de clases.
 f) Se ha generado un diagrama de clases mediante ingeniería inversa.
 
-7. Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. 
+6. Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas. 
 Criterios de evaluación:
 a) Se han identificado los distintos tipos de diagramas de comportamiento.
 b) Se ha reconocido el significado de los diagramas de casos de uso.
