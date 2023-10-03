@@ -98,6 +98,89 @@ g) Se han analizado y utilizado librerías de código relacionadas con Big Data 
 h) Se han probado, depurado y documentado las aplicaciones generadas
 
 
+
+Contenidos:
+a) Selección de arquitecturas y herramientas de programación:
+Modelos de programación en entornos cliente / servidor.
+Mecanismos de ejecución de código en un servidor web.
+Generación dinámica de páginas web.
+Lenguajes de programación en entorno servidor.
+Integración con los lenguajes de marcas.
+Tecnologías asociadas.
+Servidores de aplicaciones.
+Integración con los servidores web.
+Herramientas de programación.
+Editores y compiladores.
+
+b) Inserción de código en páginas web
+Lenguajes embebidos en HTML.
+Tecnologías asociadas: PHP, ASP, JSP, Servlets, entre otras.
+Contenedores de servlets.
+Obtención del lenguaje de marcas a mostrar en el cliente.
+Etiquetas para inserción de código.
+Bloques de código.
+Directivas.
+Tipos de datos. Conversiones entre tipos de datos.
+Variables.
+Ámbito de utilización de las variables.
+c) Programación basada en lenguajes de marcas con código embebido:
+Tomas de decisión.
+Bucles.
+Comentarios de cliente y de servidor.
+Tipos de datos compuestos.
+Arrays.
+Funciones.
+Paso de parámetros. Devolución de valores.
+Recuperación y utilización de información proveniente del cliente web.
+Interacción con el usuario: formularios.
+Procesamiento de la información introducida en un formulario.
+d) Desarrollo de aplicaciones web utilizando código embebido:
+Mantenimiento del estado.
+Sesiones.
+Cookies.
+Seguridad: usuarios, perfiles, roles.
+Autentificación de usuarios.
+Herramientas de programación.
+Pruebas y depuración.
+e) Generación dinámica de páginas web:
+Mecanismos de separación de la lógica de negocio.
+Tecnologías asociadas.
+Controles de servidor.
+Mantenimiento del estado de los controles.
+Mecanismos de generación dinámica del interface web.
+f) Utilización de técnicas de acceso a datos:
+Utilización de bases de datos relacionales.
+Establecimiento de conexiones.
+Recuperación y edición de información.
+Utilización de conjuntos de resultados.
+Visualización de la información en páginas web.
+Mecanismos de edición de la información en un cliente web.
+Ejecución de sentencias SQL.
+Transacciones.
+Utilización de otros orígenes de datos.
+Almacenes de información heterogéneos.
+g) Programación de servicios web:
+Arquitecturas de programación orientadas a servicios.
+Mecanismos y protocolos implicados.
+SOAP.
+Generación de un servicio web.
+Descripción del servicio.
+Interface de un servicio web.
+Utilización de un servicio web.
+h) Generación dinámica de páginas web interactivas:
+Procesamiento en el servidor y en el cliente.
+Librerías y tecnologías relacionadas.
+Generación dinámica de páginas interactivas.
+Controles con verificación de información en el cliente.
+Obtención remota de información.
+Modificación de la estructura de la página web.
+i) Desarrollo de aplicaciones web híbridas:
+Reutilización de código e información.
+Interfaces de programación de aplicaciones disponibles.
+Utilización de información proveniente de repositorios.
+Creación de repositorios a medida.
+Incorporación de funcionalidades específicas.
+
 Duración: 100 horas.
 Contenidos básicos:
 
