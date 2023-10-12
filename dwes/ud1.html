@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeones con Bootstrap y FontAwesome</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+<h1>UD 1: Introducción a la programación en entorno servidor.</h1>
+    <div class="accordion" id="infoAccordion">
+
+        <!-- Modelo de programación en entornos cliente/servidor -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+                        <i class="fas fa-network-wired"></i> Modelos de programación en entornos cliente/servidor
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse" data-parent="#infoAccordion">
+                <div class="card-body">
+                    <p>El modelo cliente/servidor es una arquitectura de computación distribuida en la que las tareas y cargas de trabajo se dividen entre los proveedores de un recurso o servicio, llamados servidores, y los solicitantes del servicio, llamados clientes. A menudo, los clientes y servidores se comunican a través de una red informática en diferentes máquinas físicas, pero ambos también pueden residir en la misma máquina.</p>
+                    <ul>
+                        <li><strong>Modelo de dos niveles:</strong> El cliente se comunica directamente con el servidor. Ejemplo: Cliente de base de datos comunicándose directamente con el servidor de la base de datos.</li>
+                        <li><strong>Modelo de tres niveles:</strong> Se introduce una capa intermedia llamada capa de lógica de negocio. Ejemplo: Aplicaciones web donde el navegador (cliente) se comunica con el servidor web que a su vez se comunica con el servidor de base de datos.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+      <!-- Mecanismos de ejecución de código en un servidor web -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                <i class="fas fa-cogs"></i> Mecanismos de ejecución de código en un servidor web
+            </button>
+        </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>El servidor web espera solicitudes de los clientes y las procesa generando respuestas. Estas respuestas pueden ser el resultado de:</p>
+            <ul>
+                <li>Servir archivos estáticos.</li>
+                <li>Ejecutar scripts o código del lado del servidor, como PHP, Python (Flask, Django), JavaScript (Node.js), etc.</li>
+                <li>Conectar con bases de datos para obtener o manipular datos antes de enviar una respuesta.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Generación dinámica de páginas web -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree">
+                <i class="fas fa-sync-alt"></i> Generación dinámica de páginas web
+            </button>
+        </h2>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>A diferencia de las páginas estáticas, que siempre muestran el mismo contenido, las páginas dinámicas muestran contenido basado en parámetros específicos como entradas del usuario, datos de una base de datos, hora del día, entre otros.</p>
+            <ul>
+                <li>Tecnologías: PHP, JSP, ASP.NET, Node.js.</li>
+                <li>Bases de datos comunes: MySQL, PostgreSQL, MongoDB.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Lenguajes de programación en entorno servidor -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour">
+                <i class="fas fa-code"></i> Lenguajes de programación en entorno servidor
+            </button>
+        </h2>
+    </div>
+    <div id="collapseFour" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Los lenguajes de programación en el servidor definen cómo se procesan las solicitudes y cómo se genera el contenido dinámico. Estos pueden variar en función y capacidad.</p>
+            <ul>
+                <li><strong>PHP:</strong> ampliamente utilizado, especialmente para aplicaciones web.</li>
+                <li><strong>Python:</strong> utilizado con frameworks como Django o Flask.</li>
+                <li><strong>JavaScript (Node.js):</strong> permite ejecutar JavaScript en el servidor.</li>
+                <li><strong>Ruby on Rails:</strong> basado en el lenguaje de programación Ruby.</li>
+                <li><strong>Java:</strong> con frameworks como Spring Boot o Java EE.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Integración con los lenguajes de marcas -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive">
+                <i class="fas fa-tags"></i> Integración con los lenguajes de marcas
+            </button>
+        </h2>
+    </div>
+    <div id="collapseFive" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Los lenguajes de marcas, como HTML, XML o JSON, se integran con lenguajes de programación del servidor para generar contenido dinámico. Esta combinación permite adaptar el contenido basado en los datos procesados en el servidor.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Tecnologías asociadas -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix">
+                <i class="fas fa-project-diagram"></i> Tecnologías asociadas
+            </button>
+        </h2>
+    </div>
+    <div id="collapseSix" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Hay varias tecnologías que apoyan y mejoran la programación en el servidor. Estas incluyen bases de datos, servidores web, servidores de aplicaciones y herramientas de desarrollo.</p>
+        </div>
+    </div>
+</div>
+<!-- Servidores de aplicaciones -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven">
+                <i class="fas fa-server"></i> Servidores de aplicaciones
+            </button>
+        </h2>
+    </div>
+    <div id="collapseSeven" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Un servidor de aplicaciones es un software que aloja y opera aplicaciones para clientes solicitantes. Funciona como un middleware entre las aplicaciones del lado del servidor y el servidor web. Algunos ejemplos populares incluyen Tomcat, WebLogic y WildFly.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Integración con los servidores web -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEight">
+                <i class="fas fa-network-wired"></i> Integración con los servidores web
+            </button>
+        </h2>
+    </div>
+    <div id="collapseEight" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>La integración con servidores web permite a los servidores de aplicaciones atender peticiones web, procesar la lógica de negocio y devolver respuestas dinámicas. Servidores web populares incluyen Apache, Nginx y Microsoft's IIS.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Herramientas de programación -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNine">
+                <i class="fas fa-tools"></i> Herramientas de programación
+            </button>
+        </h2>
+    </div>
+    <div id="collapseNine" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Existen diversas herramientas que facilitan el desarrollo en el entorno del servidor, desde IDEs (Entornos de Desarrollo Integrado) hasta herramientas de construcción y gestión de dependencias. Algunas populares incluyen Eclipse, IntelliJ IDEA, Maven y Gradle.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Editores y compiladores -->
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTen">
+                <i class="fas fa-pencil-alt"></i> Editores y compiladores
+            </button>
+        </h2>
+    </div>
+    <div id="collapseTen" class="collapse" data-parent="#infoAccordion">
+        <div class="card-body">
+            <p>Los editores son herramientas que facilitan la escritura de código, proporcionando resaltado de sintaxis, autocompletado y otras funcionalidades. Ejemplos comunes son Visual Studio Code, Sublime Text y Atom. Los compiladores, por otro lado, traducen el código fuente escrito por los desarrolladores a un formato ejecutable. Algunos lenguajes, como Java, requieren compilación antes de la ejecución.</p>
+        </div>
+    </div>
+</div>
+
+<h1>Rúbrica</h1>
+<table border="1" cellspacing="0" cellpadding="5" style="width:100%;">
+    <thead>
+        <tr>
+            <th>Elementos a Evaluar</th>
+            <th>Excelente (5)</th>
+            <th>Bueno (4)</th>
+            <th>Aceptable (3)</th>
+            <th>Insuficiente (2)</th>
+            <th>Deficiente (1)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>a) Modelos de ejecución</td>
+            <td>Demuestra un conocimiento completo y diferenciado entre servidor y cliente.</td>
+            <td>Muestra una comprensión general pero falta profundidad en algunos aspectos.</td>
+            <td>Tiene conocimientos básicos con errores menores.</td>
+            <td>Mucho desconocimiento o confusión.</td>
+            <td>Sin conocimiento o entendimiento.</td>
+        </tr>
+        <tr>
+            <td>b) Ventajas de páginas dinámicas</td>
+            <td>Reconoce y explica en detalle todas las ventajas de las páginas dinámicas.</td>
+            <td>Enumera las ventajas pero con limitada explicación.</td>
+            <td>Menciona algunas ventajas sin profundidad.</td>
+            <td>Menciona una o dos ventajas.</td>
+            <td>No reconoce ventajas.</td>
+        </tr>
+        <tr>
+            <td>c) Mecanismos en servidores</td>
+            <td>Identifica y describe en detalle los mecanismos de ejecución en servidores web.</td>
+            <td>Describe la mayoría de los mecanismos con alguna omisión.</td>
+            <td>Menciona algunos mecanismos sin detalle.</td>
+            <td>Poca claridad en la respuesta.</td>
+            <td>Respuesta incorrecta.</td>
+        </tr>
+        <tr>
+            <td>d) Funcionalidades de servidores</td>
+            <td>Reconoce y explica todas las funcionalidades y su integración con servidores web.</td>
+            <td>Explica la mayoría con alguna omisión o error menor.</td>
+            <td>Explica algunas funcionalidades sin profundidad.</td>
+            <td>Menciona una o dos funcionalidades.</td>
+            <td>No reconoce funcionalidades.</td>
+        </tr>
+        <tr>
+            <td>e) Lenguajes y tecnologías</td>
+            <td>Identifica y describe detalladamente los principales lenguajes y tecnologías para servidores.</td>
+            <td>Describe la mayoría con alguna omisión.</td>
+            <td>Menciona algunos lenguajes/tecnologías sin detalle.</td>
+            <td>Poca claridad en la respuesta.</td>
+            <td>Respuesta incorrecta.</td>
+        </tr>
+        <tr>
+            <td>f) Integración de lenguajes</td>
+            <td>Verifica y demuestra mecanismos de integración con ejemplos claros y precisos.</td>
+            <td>Describe mecanismos con ejemplos pero puede omitir detalles.</td>
+            <td>Describe mecanismos sin ejemplos claros.</td>
+            <td>Poca claridad en la respuesta.</td>
+            <td>No reconoce mecanismos.</td>
+        </tr>
+        <tr>
+            <td>g) Herramientas y frameworks</td>
+            <td>Reconoce, evalúa y explica con detalle las herramientas y frameworks de programación en servidor.</td>
+            <td>Reconoce y describe la mayoría de las herramientas con alguna omisión.</td>
+            <td>Menciona algunas herramientas/frameworks.</td>
+            <td>Menciona una o dos herramientas.</td>
+            <td>No reconoce herramientas.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Observaciones para la calificación:</p>
+<ul>
+    <li>Excelente (5): Respuestas precisas, detalladas, y con profundidad que demuestran un entendimiento completo del tema.</li>
+    <li>Bueno (4): Respuestas con algún nivel de detalle, pero con omisiones menores.</li>
+    <li>Aceptable (3): Respuestas generales, carecen de profundidad y puede haber errores menores.</li>
+    <li>Insuficiente (2): Respuestas vagas, con falta de claridad y errores significativos.</li>
+    <li>Deficiente (1): Respuestas incorrectas o sin conocimiento sobre el tema.</li>
+</ul>
+
+    </div>
+
+</div>
+
+<!-- Enlace a jQuery y Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
