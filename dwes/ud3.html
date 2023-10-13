@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rúbrica de Evaluación con JSTL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-3">Rúbrica: Escribe bloques de sentencias embebidos en lenguajes de marcas</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Criterios de Evaluación</th>
+                <th>Descripción</th>
+                <th>Ejemplo en JSTL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>a) Mecanismos de decisión</td>
+                <td>El alumno debe ser capaz de implementar estructuras de control de decisión.</td>
+                <td>
+                    <code>&lt;c:choose&gt;</code><br>
+                    <code>&lt;c:when test="${condicion}"&gt;...</code><br>
+                    <code>&lt;c:otherwise&gt;...</code>
+                </td>
+            </tr>
+            <tr>
+                <td>b) Bucles</td>
+                <td>El alumno debe implementar bucles y verificar su correcto funcionamiento.</td>
+                <td>
+                    <code>&lt;c:forEach var="item" items="${lista}"&gt;...</code>
+                </td>
+            </tr>
+            <tr>
+                <td>c) Matrices (arrays)</td>
+                <td>El alumno debe implementar y manipular matrices o listas para almacenar y recuperar conjuntos de datos.</td>
+                <td>
+                    <code>&lt;c:forEach var="item" items="${arrayItems}"&gt; ${item} &lt;/c:forEach&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td>d) Creación y uso de funciones</td>
+                <td>El alumno debe ser capaz de crear y usar funciones dentro de JSTL.</td>
+                <td>
+                    <code>${fn:toUpperCase('ejemplo')}</code> (Convierte el texto 'ejemplo' a mayúsculas)
+                </td>
+            </tr>
+            <tr>
+                <td>e) Uso de formularios web</td>
+                <td>El alumno debe implementar formularios web para recopilar datos del usuario.</td>
+                <td>
+                    <code>&lt;form action="procesar.jsp"&gt;</code><br>
+                    <code>&lt;input type="text" name="nombre" /&gt;</code><br>
+                    <code>&lt;/form&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td>f) Recuperación de información del formulario</td>
+                <td>El alumno debe recuperar y procesar la información proporcionada en el formulario.</td>
+                <td>
+                    <code>${param.nombre}</code> (Recupera el valor del campo 'nombre' del formulario)
+                </td>
+            </tr>
+            <tr>
+                <td>g) Comentarios en el código</td>
+                <td>El alumno debe añadir comentarios relevantes en el código para mejorar su comprensión.</td>
+                <td>
+                    <code>&lt;!-- Este es un comentario en JSP --&gt;</code>
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+<div class="container mt-5">
+    <h1>Gestor de Tareas</h1>
+    <div id="acordeon">
+        
+        <!-- Mecanismos de Decisión -->
+        <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#decision">
+                    1. Mecanismos de Decisión
+                </a>
+            </div>
+            <div id="decision" class="collapse" data-parent="#acordeon">
+                <div class="card-body">
+                    <pre><code>
+                        <c:when test="${tarea.prioridad == 'Urgente'}">
+                            <p class="text-danger">${tarea.descripcion}</p>
+                        </c:when>
+                        <c:otherwise>
+                            <p>${tarea.descripcion}</p>
+                        </c:otherwise>
+                    </c:choose>
+                    </code></pre>
+                    <c:choose>
+                     
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bucles -->
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#bucles">
+                    2. Bucles
+                </a>
+            </div>
+            <div id="bucles" class="collapse" data-parent="#acordeon">
+                <div class="card-body">
+                    <ul>
+                        <c:forEach var="tarea" items="${listaTareas}">
+                            <li>${tarea.descripcion}</li>
+                        </c:forEach>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Puedes seguir agregando más secciones por cada criterio... -->
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
