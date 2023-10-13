@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de Spring Boot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        code {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #eee;
+            padding: 5px;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conceptos de Spring Boot</h1>
+
+    <h2>Mantenimiento del Estado</h2>
+    <p>El mantenimiento del estado en aplicaciones web hace referencia a la capacidad de la aplicación para recordar el estado del usuario a medida que navega entre diferentes páginas. Dado que HTTP es un protocolo sin estado, se utilizan mecanismos como sesiones y cookies para recordar el estado del usuario.</p>
+<!--... restante del código HTML ...-->
+
+<h2>Sesiones</h2>
+<p>Las sesiones en Spring Boot permiten almacenar datos específicos del usuario entre solicitudes HTTP. Cuando un usuario accede a la aplicación, se crea una sesión, la cual puede ser utilizada para almacenar atributos entre diferentes solicitudes.</p>
+<pre><code>@RequestMapping("/setSession")
+public String setSession(HttpSession session) {
+    session.setAttribute("mySessionAttribute", "someValue");
+    return "sessionSet";
+}
+
+@RequestMapping("/getSession")
+public String getSession(HttpSession session, Model model) {
+    model.addAttribute("sessionAttribute", session.getAttribute("mySessionAttribute"));
+    return "getSession";
+}</code></pre>
+
+<!--... más contenido ...-->
+
+<h2>Autentificación de Usuarios</h2>
+<p>La autenticación de usuarios es un proceso para verificar la identidad de un usuario. Con Spring Security, es posible manejar varios esquemas de autenticación.</p>
+<pre><code>@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+            .antMatchers("/public/**").permitAll()
+            .anyRequest().authenticated()
+            .and()
+            .formLogin();
+    }
+}</code></pre>
+
+    <h2>Cookies</h2>
+    <p>Las cookies son datos almacenados en el navegador del usuario y son enviados con cada solicitud al mismo servidor, lo cual las hace útiles para almacenar información de seguimiento entre solicitudes y visitas del usuario.</p>
+    <code><pre>
+@RequestMapping("/getCookie")
+public String readCookie(@CookieValue(value = "myCookie", defaultValue = "defaultCookie") String myCookie) {
+    return "Read Cookie: " + myCookie;
+}
+</pre></code>
+
+    <h2>Seguridad: Usuarios, Perfiles, Roles</h2>
+    <p>Spring Security es un módulo que proporciona autenticación y autorización, permitiendo de este modo configurar fácilmente la seguridad de tu aplicación. Los roles y perfiles definen lo que un usuario autenticado puede hacer y ver en la aplicación.</p>
+
+    <h2>Autentificación de Usuarios</h2>
+    <p>La autenticación de usuarios es un proceso para verificar la identidad de un usuario. Con Spring Security, es posible manejar varios esquemas de autenticación.</p>
+    <code><pre>
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+            .antMatchers("/public/**").permitAll()
+            .anyRequest().authenticated()
+            .and()
+            .formLogin();
+    }
+}
+</pre></code>
+
+    <h2>Herramientas de Programación</h2>
+    <p>Spring Boot ofrece una variedad de herramientas para ayudar a desarrollar aplicaciones rápidamente. Algunas de las herramientas de desarrollo y pruebas comunes incluyen Spring Initializr para la creación de proyectos, Maven o Gradle para la gestión de dependencias, y Spring Boot DevTools para la recarga automática de cambios en el código.</p>
+
+    <h2>Pruebas y Depuración</h2>
+    <p>Spring Boot simplifica las pruebas mediante el módulo Spring Boot Test, que proporciona anotaciones y herramientas para pruebas unitarias y de integración. Los IDEs también ofrecen potentes herramientas para depurar la aplicación, permitiendo establecer puntos de interrupción y observar los datos durante la ejecución.</p>
+    <code><pre>
+@SpringBootTest
+class MyApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+}
+</pre> </code>
+</body>
+</html>
