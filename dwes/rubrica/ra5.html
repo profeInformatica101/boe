@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA5:Desarrolla aplicaciones web identificando y aplicando mecanismos para separar el código de presentación
+        de la lógica de negocio.</title>
+    <link rel="stylesheet" href="style.css"> <!-- Añade tus estilos aquí -->
+</head>
+
+<body>
+    <p>RA5:Desarrolla aplicaciones web identificando y aplicando mecanismos para separar el código de presentación de la
+        lógica de negocio.</p>
+
+    <h1>Práctica: Desarrollo de una Aplicación Web con Separación de Lógica y Presentación (MVC)</h1>
+
+    <h2>Descripción de la Práctica</h2>
+    <p>Los estudiantes deben desarrollar una aplicación web utilizando Spring Boot, que muestre claramente una
+        separación entre la lógica de negocio y la capa de presentación. La aplicación debe incluir mecanismos de
+        generación dinámica de interfaz web y mantener el estado de los controles.</p>
+
+    <h2>Requisitos</h2>
+    <ul>
+        <li>Desarrollar una aplicación web que contenga al menos una entidad y una interfaz CRUD para interactuar con
+            ella.</li>
+        <li>Utilizar Spring Boot y Thymeleaf para separar la lógica de negocio del código de presentación.</li>
+        <li>La interfaz debe generar dinámicamente formularios y otras estructuras UI en respuesta a eventos de usuario.
+        </li>
+        <li>Documentar y probar el código de manera adecuada.</li>
+    </ul>
+    <h2>Etiquetas</h2>
+    <h3>Logica de negocio</h3>
+    <ol>
+
+        <ul>
+            <li><code>@Controller</code>: Anotación de Spring para indicar que una clase es un controlador.</li>
+            <li><code>@RequestMapping</code>: Anotación para mapear solicitudes web.</li>
+            <li><code>@GetMapping</code>, <code>@PostMapping</code>: Anotaciones para mapear solicitudes HTTP GET y POST
+                respectivamente.</li>
+            <li><code>@ModelAttribute</code>: Anotación que vincula un método parámetro o un método de retorno a un
+                atributo de modelo con nombre.</li>
+            <li><code>@Autowired</code>: Anotación para inyectar un bean Spring gestionado en un campo.</li>
+        </ul>
+    </ol>
+    <h3>Capa de presentación </h3>
+    <ol>
+        <ul>
+            <li><code>th:object</code>, <code>th:action</code>: Atributos Thymeleaf para definir el objeto y la acción
+                de un formulario.</li>
+            <li><code>th:field</code>: Atributo Thymeleaf para vincular campos del formulario a propiedades de un
+                objeto.</li>
+            <li><code>th:text</code>, <code>th:value</code>: Atributos Thymeleaf para definir el texto o el valor de un
+                elemento HTML.</li>
+            <li><code>th:each</code>: Atributo Thymeleaf para iterar sobre colecciones.</li>
+            <li><code>th:if</code>, <code>th:unless</code>: Atributos Thymeleaf para condiciones.</li>
+            <li><code>th:switch</code>, <code>th:case</code>: Atributos Thymeleaf para control de flujo (switch-case).
+            </li>
+        </ul>
+    </ol>
+
+    <h2>Rúbrica para la Evaluación</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Criterios de Evaluación</th>
+            <th>Insuficiente</th>
+            <th>Suficiente</th>
+            <th>Bien</th>
+            <th>Notable</th>
+            <th>Sobresaliente</th>
+        </tr>
+        <tr>
+            <td>a) Ventajas de separar lógica y presentación</td>
+            <td>No identifica ni comprende las ventajas de la separación de lógica y presentación.</td>
+            <td>Identifica algunas ventajas de separar la lógica de presentación, pero su comprensión es superficial o
+                parcial.</td>
+            <td>Identifica y comprende las ventajas de la separación de lógica y presentación, con algunos errores o
+                omisiones menores.</td>
+            <td>Demuestra una comprensión clara y completa de las ventajas de separar la lógica de presentación, con
+                ejemplos pertinentes.</td>
+            <td>Demuestra una comprensión profunda y detallada de las ventajas de separar la lógica de presentación, con
+                ejemplos avanzados y explicaciones exhaustivas.</td>
+        </tr>
+
+        <tr>
+            <td>b) Uso de mecanismos y frameworks para separación de lógica</td>
+            <td>No utiliza ni analiza mecanismos/frameworks para la separación de lógica.</td>
+            <td>Utiliza mecanismos/frameworks con comprensión y aplicación limitadas.</td>
+            <td>Utiliza y analiza correctamente mecanismos/frameworks, con alguna falta de profundidad.</td>
+            <td>Utiliza y analiza mecanismos/frameworks de forma efectiva y detallada.</td>
+            <td>Demuestra un uso y análisis ejemplar de mecanismos/frameworks con una profundidad notable.</td>
+        </tr>
+        <tr>
+            <td>c) Uso de objetos y controles en el servidor</td>
+            <td>No utiliza objetos ni controles en el servidor para generar la UI.</td>
+            <td>Uso básico y limitado de objetos y controles en el servidor.</td>
+            <td>Utiliza objetos y controles en el servidor adecuadamente, con pequeñas inconsistencias.</td>
+            <td>Aplica objetos y controles en el servidor de forma efectiva y coherente.</td>
+            <td>Uso avanzado y altamente efectivo de objetos y controles en el servidor.</td>
+        </tr>
+        <tr>
+            <td>d) Uso de formularios dinámicos en respuesta a eventos</td>
+            <td>No implementa formularios dinámicos en respuesta a eventos.</td>
+            <td>Implementa formularios dinámicos con respuesta básica a eventos.</td>
+            <td>Implementa formularios dinámicos con buena respuesta a eventos y alguna lógica.</td>
+            <td>Implementa formularios dinámicos robustos, respondiendo adecuadamente a varios eventos.</td>
+            <td>Implementa formularios dinámicos de manera sobresaliente, con respuestas a eventos complejas y lógica
+                avanzada.</td>
+        </tr>
+        <tr>
+            <td>e) Identificación y aplicación de parámetros de configuración</td>
+            <td>No identifica ni aplica parámetros de configuración relevantes.</td>
+            <td>Identifica y aplica parámetros de configuración básicos.</td>
+            <td>Identifica y aplica correctamente la mayoría de los parámetros de configuración.</td>
+            <td>Identifica y aplica parámetros de configuración pertinentes de manera eficaz.</td>
+            <td>Identifica y aplica parámetros de configuración de manera ejemplar, considerando múltiples aspectos de
+                la aplicación.</td>
+        </tr>
+        <tr>
+            <td>f) Escritura de aplicaciones web con mantenimiento de estado y separación de lógica</td>
+            <td>No mantiene el estado ni separa adecuadamente la lógica de presentación.</td>
+            <td>Mantiene estado básico y tiene una separación mínima de lógica y presentación.</td>
+            <td>Mantiene el estado y separa lógica y presentación con algunos problemas menores.</td>
+            <td>Mantiene el estado eficazmente y separa la lógica y presentación con coherencia.</td>
+            <td>Mantiene el estado y separa la lógica y presentación de manera excelente, demostrando prácticas
+                avanzadas.</td>
+        </tr>
+        <tr>
+            <td>g) Aplicación de principios y patrones POO</td>
+            <td>No aplica principios ni patrones de POO en la solución.</td>
+            <td>Aplica principios y patrones de POO básicos y generales.</td>
+            <td>Aplica principios y patrones de POO con algunas omisiones o errores.</td>
+            <td>Aplica principios y patrones de POO de manera consistente y justificada.</td>
+            <td>Aplica principios y patrones de POO de manera excepcional, mejorando significativamente la calidad del
+                código.</td>
+        </tr>
+        <tr>
+            <td>h) Prueba y documentación del código</td>
+            <td>No realiza pruebas ni documenta el código.</td>
+            <td>Realiza pruebas básicas y proporciona documentación mínima o incompleta.</td>
+            <td>Realiza pruebas suficientes y documenta el código de manera adecuada.</td>
+            <td>Realiza pruebas detalladas, y la documentación del código es clara y completa.</td>
+            <td>Realiza pruebas exhaustivas y la documentación del código es excepcional en claridad y completitud.</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
