@@ -1,133 +1,101 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rúbrica de Evaluación con JSTL</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Rúbrica de Evaluación</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
+
 <body>
-<div class="container mt-5">
-    <h2 class="mb-3">Rúbrica: Escribe bloques de sentencias embebidos en lenguajes de marcas</h2>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Criterios de Evaluación</th>
-                <th>Descripción</th>
-                <th>Ejemplo en JSTL</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>a) Mecanismos de decisión</td>
-                <td>El alumno debe ser capaz de implementar estructuras de control de decisión.</td>
-                <td>
-                    <code>&lt;c:choose&gt;</code><br>
-                    <code>&lt;c:when test="${condicion}"&gt;...</code><br>
-                    <code>&lt;c:otherwise&gt;...</code>
-                </td>
-            </tr>
-            <tr>
-                <td>b) Bucles</td>
-                <td>El alumno debe implementar bucles y verificar su correcto funcionamiento.</td>
-                <td>
-                    <code>&lt;c:forEach var="item" items="${lista}"&gt;...</code>
-                </td>
-            </tr>
-            <tr>
-                <td>c) Matrices (arrays)</td>
-                <td>El alumno debe implementar y manipular matrices o listas para almacenar y recuperar conjuntos de datos.</td>
-                <td>
-                    <code>&lt;c:forEach var="item" items="${arrayItems}"&gt; ${item} &lt;/c:forEach&gt;</code>
-                </td>
-            </tr>
-            <tr>
-                <td>d) Creación y uso de funciones</td>
-                <td>El alumno debe ser capaz de crear y usar funciones dentro de JSTL.</td>
-                <td>
-                    <code>${fn:toUpperCase('ejemplo')}</code> (Convierte el texto 'ejemplo' a mayúsculas)
-                </td>
-            </tr>
-            <tr>
-                <td>e) Uso de formularios web</td>
-                <td>El alumno debe implementar formularios web para recopilar datos del usuario.</td>
-                <td>
-                    <code>&lt;form action="procesar.jsp"&gt;</code><br>
-                    <code>&lt;input type="text" name="nombre" /&gt;</code><br>
-                    <code>&lt;/form&gt;</code>
-                </td>
-            </tr>
-            <tr>
-                <td>f) Recuperación de información del formulario</td>
-                <td>El alumno debe recuperar y procesar la información proporcionada en el formulario.</td>
-                <td>
-                    <code>${param.nombre}</code> (Recupera el valor del campo 'nombre' del formulario)
-                </td>
-            </tr>
-            <tr>
-                <td>g) Comentarios en el código</td>
-                <td>El alumno debe añadir comentarios relevantes en el código para mejorar su comprensión.</td>
-                <td>
-                    <code>&lt;!-- Este es un comentario en JSP --&gt;</code>
-                </td>
-            </tr>
-            
-        </tbody>
+
+    <h1>Rúbrica de Evaluación: Sistema de Registro de Estudiantes</h1>
+ 
+<h1>Sistema de Registro de Estudiantes</h1>
+   <p>Desarrolla un sistema web simple utilizando Spring Boot que permita:
+       <ul>
+            <li>Registrar estudiantes con los siguientes datos: nombre, edad, grado y lista de materias inscritas (usando un array).</li>
+           <li>Listar todos los estudiantes registrados.</li>
+           <li>Buscar estudiantes por nombre.</li>
+           <li>Mostrar el promedio de edad de los estudiantes registrados.</li>
+           <li>Añadir comentarios explicativos en el código.</li>
+       </ul>
+        
+    </p>
+
+    <table>
+        <tr>
+            <th>Criterio de Evaluación</th>
+            <th>Insatisfactorio</th>
+            <th>Básico</th>
+            <th>Competente</th>
+            <th>Sobresaliente</th>
+        </tr>
+        <tr>
+            <td>a) Mecanismos de decisión</td>
+            <td>No utiliza mecanismos de decisión</td>
+            <td>Utiliza mecanismos de decisión de forma básica y en pocas ocasiones</td>
+            <td>Utiliza mecanismos de decisión de forma adecuada</td>
+            <td>Utiliza mecanismos de decisión de forma experta y eficiente</td>
+        </tr>
+        <tr>
+            <td>b) Uso de bucles</td>
+            <td>No utiliza bucles</td>
+            <td>Utiliza bucles, pero no verifica su funcionamiento</td>
+            <td>Utiliza y verifica bucles adecuadamente</td>
+            <td>Utiliza bucles de manera óptima y verifica su funcionamiento exhaustivamente</td>
+        </tr>
+        <tr>
+            <td>c) Uso de arrays</td>
+            <td>No utiliza arrays</td>
+            <td>Utiliza arrays de manera limitada</td>
+            <td>Utiliza arrays de manera correcta para almacenar y recuperar datos</td>
+            <td>Utiliza arrays de manera óptima, explorando diversas funciones y métodos sobre los mismos</td>
+        </tr>
+        <tr>
+            <td>d) Creación y uso de funciones</td>
+            <td>No define ni utiliza funciones</td>
+            <td>Define y utiliza funciones básicas sin parámetros</td>
+            <td>Define y utiliza funciones, incluyendo el uso de parámetros</td>
+            <td>Define y utiliza funciones avanzadas, con parámetros y retornos complejos</td>
+        </tr>
+        <tr>
+            <td>e) Interacción mediante formularios web</td>
+            <td>No utiliza formularios web</td>
+            <td>Utiliza formularios web sin validación de datos</td>
+            <td>Utiliza formularios web con validación básica de datos</td>
+            <td>Utiliza formularios web con validación avanzada de datos y UX amigable</td>
+        </tr>
+        <tr>
+            <td>f) Métodos para recuperar información del formulario</td>
+            <td>No emplea métodos para recuperar información</td>
+            <td>Emplea métodos básicos sin validación para recuperar información</td>
+            <td>Emplea métodos con validaciones básicas para recuperar información</td>
+            <td>Emplea métodos de forma óptima, incluyendo validaciones y gestionando posibles errores</td>
+        </tr>
+        <tr>
+            <td>g) Añadir comentarios al código</td>
+            <td>No añade comentarios al código</td>
+            <td>Añade algunos comentarios, pero no son claros ni descriptivos</td>
+            <td>Añade comentarios claros y descriptivos en las partes clave del código</td>
+            <td>Añade comentarios claros, descriptivos y concisos en todas las partes necesarias del código</td>
+        </tr>
     </table>
-</div>
 
-
-<div class="container mt-5">
-    <h1>Gestor de Tareas</h1>
-    <div id="acordeon">
-        
-        <!-- Mecanismos de Decisión -->
-        <div class="card">
-            <div class="card-header">
-                <a class="card-link" data-toggle="collapse" href="#decision">
-                    1. Mecanismos de Decisión
-                </a>
-            </div>
-            <div id="decision" class="collapse" data-parent="#acordeon">
-                <div class="card-body">
-                    <pre><code>
-                        <c:when test="${tarea.prioridad == 'Urgente'}">
-                            <p class="text-danger">${tarea.descripcion}</p>
-                        </c:when>
-                        <c:otherwise>
-                            <p>${tarea.descripcion}</p>
-                        </c:otherwise>
-                    </c:choose>
-                    </code></pre>
-                    <c:choose>
-                     
-                </div>
-            </div>
-        </div>
-        
-        <!-- Bucles -->
-        <div class="card">
-            <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#bucles">
-                    2. Bucles
-                </a>
-            </div>
-            <div id="bucles" class="collapse" data-parent="#acordeon">
-                <div class="card-body">
-                    <ul>
-                        <c:forEach var="tarea" items="${listaTareas}">
-                            <li>${tarea.descripcion}</li>
-                        </c:forEach>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Puedes seguir agregando más secciones por cada criterio... -->
-
-    </div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
