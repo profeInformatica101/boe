@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rúbrica y Práctica - Desarrollo de Servicios Web</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333366;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Práctica: Creación y Documentación de un Servicio Web con Spring Boot</h1>
+    <h2>Objetivos:</h2>
+    <ul>
+        <li>Desarrollar un servicio web reutilizable y accesible mediante protocolos web usando Spring Boot.</li>
+        <li>Documentar apropiadamente el servicio web.</li>
+    </ul>
+    <h2>Requisitos:</h2>
+    <ul>
+        <li>Conocimientos básicos en Java y Spring Boot.</li>
+        <li>Conocimientos básicos en el uso de herramientas de prueba de API como Postman.</li>
+        <li>Conocimientos en documentación de API (Swagger/OpenAPI).</li>
+    </ul>
+    <h2>Descripción de la Práctica:</h2>
+    <ol>
+        <li><strong>Creación del Servicio Web:</strong>
+            <p>Desarrollar un servicio web utilizando Spring Boot que permita gestionar entidades básicas como "Usuarios". Debe proporcionar operaciones CRUD (Crear, Leer, Actualizar, Eliminar).</p>
+        </li>
+        <li><strong>Documentación del Servicio Web:</strong>
+            <p>Utilizar Swagger para documentar el servicio web desarrollado, asegurándose de que cada endpoint esté debidamente descrito y que la documentación esté accesible a través de una URL.</p>
+        </li>
+        <li><strong>Verificación y Consumo del Servicio Web:</strong>
+            <p>Utilizar herramientas como Postman para verificar el funcionamiento del servicio web. Crear un cliente básico (puede ser con otro Spring Boot o utilizando tecnología front-end) para consumir el servicio web y demostrar su funcionalidad.</p>
+        </li>
+    </ol>
+
+    <h1>Rúbrica de Evaluación</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Criterio</th>
+                <th>Insuficiente</th>
+                <th>Suficiente</th>
+                <th>Bien</th>
+                <th>Notable</th>
+                <th>Sobresaliente</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>a) Reconocimiento de características y ámbito de aplicación de los servicios web</td>
+                <td>No identifica características y ámbitos de los servicios web</td>
+                <td>Identifica parcialmente las características y ámbitos</td>
+                <td>Identifica las características y ámbitos de los servicios web</td>
+                <td>Explica claramente las características y ámbitos de los servicios web</td>
+                <td>Demuestra una comprensión profunda, identificando y explicando las características y ámbitos</td>
+            </tr>
+            <tr>
+                <td>b) Reconocimiento de las ventajas de utilizar servicios web</td>
+                <td>No identifica ventajas</td>
+                <td>Identifica al menos una ventaja sin explicación</td>
+                <td>Identifica y explica algunas ventajas</td>
+                <td>Identifica y explica claramente varias ventajas</td>
+                <td>Identifica y explica exhaustivamente todas las ventajas relevantes</td>
+            </tr>
+            <tr>
+                <td>c) Identificación de tecnologías y protocolos para consumo de servicios web</td>
+                <td>No identifica tecnologías ni protocolos</td>
+                <td>Identifica tecnologías o protocolos sin claridad</td>
+                <td>Identifica y describe básicamente algunas tecnologías y protocolos</td>
+                <td>Identifica y describe adecuadamente múltiples tecnologías y protocolos</td>
+                <td>Identifica y ofrece una descripción detallada y precisa de diversas tecnologías y protocolos</td>
+            </tr>
+            <tr>
+                <td>d) Uso de estándares y arquitecturas en desarrollo de servicios web</td>
+                <td>No utiliza estándares ni arquitecturas reconocidos</td>
+                <td>Utiliza estándares y arquitecturas con limitada coherencia y justificación</td>
+                <td>Utiliza estándares y arquitecturas de forma coherente en algunas partes del desarrollo</td>
+                <td>Utiliza y justifica el uso de estándares y arquitecturas en la mayoría de los aspectos del desarrollo</td>
+                <td>Utiliza y justifica exhaustivamente el uso de estándares y arquitecturas en todos los aspectos del desarrollo</td>
+            </tr>
+            <tr>
+                <td>e) Programación del servicio web</td>
+                <td>No desarrolla un servicio web funcional</td>
+                <td>Desarrolla un servicio web con funcionalidad mínima y/o numerosos errores</td>
+                <td>Desarrolla un servicio web con funcionalidad adecuada y algunos errores</td>
+                <td>Desarrolla un servicio web robusto con funcionalidad relevante y mínimos errores</td>
+                <td>Desarrolla un servicio web altamente funcional, robusto y libre de errores</td>
+            </tr>
+            <tr>
+                <td>f) Verificación del funcionamiento del servicio web</td>
+                <td>No verifica el funcionamiento del servicio web</td>
+                <td>Realiza pruebas insuficientes o irrelevantes para verificar la funcionalidad</td>
+                <td>Verifica la funcionalidad del servicio web con pruebas básicas</td>
+                <td>Conduce una verificación rigurosa y detallada de la funcionalidad del servicio web</td>
+                <td>Verifica exhaustivamente el servicio web y documenta meticulosamente los resultados de las pruebas</td>
+            </tr>
+            <tr>
+                <td>g) Consumo del servicio web</td>
+                <td>No demuestra el consumo del servicio web</td>
+                <td>Demuestra un consumo básico del servicio web con fallos o incoherencias</td>
+                <td>Demuestra un consumo adecuado del servicio web</td>
+                <td>Demuestra un consumo eficiente y efectivo del servicio web, utilizando adecuadamente sus funcionalidades</td>
+                <td>Demuestra y explica un consumo óptimo del servicio web, explorando y validando todas sus funcionalidades</td>
+            </tr>
+            <tr>
+                <td>h) Documentación del servicio web</td>
+                <td>No proporciona documentación o esta es inutilizable</td>
+                <td>Proporciona documentación básica con omisiones significativas</td>
+                <td>Documenta el servicio web de manera suficiente para el uso básico</td>
+                <td>Documenta claramente todas las funcionalidades del servicio web, facilitando su uso efectivo</td>
+                <td>Documenta de manera excepcional el servicio web, incluyendo ejemplos, posibles problemas y soluciones, y demás aspectos relevantes</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Nota: Repetir las filas según los criterios de b) a h), adecuando las descripciones de desempeño para cada uno.</p>
+</body>
+
+</html>
