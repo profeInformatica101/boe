@@ -218,3 +218,32 @@ Diagramas de colaboración. Objetos, mensajes.
 Diagramas de actividades. Actividades, transiciones, decisiones y
 combinaciones
 Diagramas de estado. Estados, eventos, señales, transiciones
+
+###################
+
+
+Orientaciones pedagógicas.
+Este módulo profesional contiene parte de la formación necesaria para
+desempeñar la función de desarrollador de aplicaciones.
+La función de desarrollador de aplicaciones incluye aspectos como:
+− La utilización de las herramientas software disponibles.
+− La elaboración de documentación interna y técnica de la aplicación.
+− El diseño, la elaboración y ejecución de pruebas.
+− La optimización de código.
+Las actividades profesionales asociadas a esta función se aplican en el
+desarrollo de aplicaciones.
+La formación del módulo contribuye a alcanzar los objetivos generales d), e),
+h), i), j), ñ) y o) del ciclo formativo y las competencias profesionales, personales y
+sociales d), f), h), i) y j), m) y n) del título.
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten
+alcanzar los objetivos del módulo están relacionados con:
+− La interpretación de documentación técnica.
+− La instalación, configuración y personalización de diversos entornos de
+desarrollo.
+− La utilización de distintos entornos de desarrollo para la edición y prueba de
+aplicaciones.
+− La utilización de herramientas de depuración, optimización y documentación
+de aplicaciones.
+− La generación de diagramas técnicos.
+− La elaboración de documentación interna de la aplicación.
+− La utilización de sistemas de control de versiones.
