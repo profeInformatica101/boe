@@ -2,7 +2,7 @@ Normativa reguladora de Informática y Comunicaciones curso 2024/2025
 
 *1º Grado medio SMR
 
-- OMLOE: Ley Orgánica 3/2020 del 29 de diciembre por la que se modifica la Ley Orgánica 2/2006, del 3 de mayo de Educación.
+- LOMLOE: Ley Orgánica 3/2020 del 29 de diciembre por la que se modifica la Ley Orgánica 2/2006, del 3 de mayo de Educación.
 - Real Decreto 659/2023, del 18 de julio por el que se desarrolla la ordenación del Sistema de Formación Profesional.
 - Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.
 - Real Decreto 499/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado medio y se fijan sus enseñanzas mínimas.
