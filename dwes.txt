@@ -181,7 +181,7 @@ Utilización de información proveniente de repositorios.
 Creación de repositorios a medida.
 Incorporación de funcionalidades específicas.
 
-Duración: 100 horas.
+Duración: 160 horas.
 Contenidos básicos:
 
 Selección de arquitecturas y herramientas de programación:
