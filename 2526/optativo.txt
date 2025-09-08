@@ -1,0 +1,68 @@
+1.- NOMBRE DEL MÓDULO PROFESIONAL
+El módulo profesional se denomina “Desarrollo Full Stack, Control de Versiones y Pruebas de Software ”
+2.- BREVE DESCRIPCIÓN DEL MÓDULO PROFESIONAL
+Este módulo abarca el desarrollo full stack de aplicaciones web, combinando la gestión de versiones, la programación del lado del servidor, la creación de APIs, la implementación del patrón MVC y la aplicación de pruebas de software. Los estudiantes aprenderán a utilizar herramientas de control de versiones, a desarrollar aplicaciones backend con un lenguaje de programación del lado del servidor, a estructurar proyectos siguiendo buenas prácticas y a garantizar la calidad del software mediante pruebas automatizadas. 
+3.- FAMILIA PROFESIONAL
+Este módulo profesional pertenece a la familia profesional de Informática y Comunicaciones
+4.- JUSTIFICACIÓN DE LA PROPUESTA
+En un entorno profesional de desarrollo web, es fundamental contar con conocimientos tanto en backend como en control de versiones y pruebas de software. Este módulo proporciona las competencias necesarias para trabajar de manera eficiente en proyectos colaborativos, aplicar buenas prácticas en el desarrollo y garantizar la seguridad y calidad del software. La combinación de estas habilidades permite a los estudiantes desenvolverse en equipos de desarrollo full stack, adaptarse a diferentes tecnologías y metodologías utilizadas en la industria así como profundizar en algunos de los contenidos que se imparten en los  otros módulos. 
+5.- NIVEL
+El módulo profesional formará parte de la optatividad  del segundo curso del Ciclo de Grado Superior de Desarrollo de Aplicaciones Web
+
+
+
+6.- RESULTADOS DE APRENDIZAJE Y CRITERIOS DE EVALUACIÓN
+RA1: Utiliza herramientas de control de versiones para la gestión de proyectos de desarrollo.
+
+Criterios de Evaluación:
+a) Se han identificado los conceptos básicos de los sistemas de control de versiones.
+b) Se ha configurado un entorno de trabajo y se ha inicializado un repositorio.
+c) Se han ejecutado operaciones básicas de control de versiones, como realizar confirmaciones, enviar y recibir cambios, y combinar ramas.
+d) Se ha trabajado con ramas para gestionar diferentes versiones del proyecto.
+e) Se han resuelto conflictos en la gestión de versiones colaborativas.
+f) Se ha configurado un repositorio remoto y se ha trabajado con solicitudes de integración de cambios.
+g) Se han utilizado estrategias de trabajo en equipo dentro de un entorno de control de versiones.
+
+
+RA2: Desarrolla aplicaciones web utilizando un lenguaje de programación del lado del servidor, comprendiendo su sintaxis, estructuras y buenas prácticas.
+Criterios de Evaluación:
+a) Se han identificado las características y sintaxis del lenguaje de programación utilizado.
+b) Se han utilizado variables, operadores y estructuras de control en el desarrollo de aplicaciones del lado del servidor.
+c) Se han manipulado datos mediante estructuras como arrays y funciones predefinidas del lenguaje.
+d) Se ha trabajado con formularios web y procesado datos en el servidor.
+e) Se ha gestionado la conexión a bases de datos y realizado operaciones de consulta y manipulación de datos.
+f) Se ha implementado el manejo de sesiones y cookies para gestionar información del usuario.
+g) Se han aplicado principios de seguridad en el desarrollo de aplicaciones web.
+
+
+RA3: Desarrolla aplicaciones backend aplicando conceptos de desarrollo y arquitectura de software.
+
+Criterios de Evaluación:
+a) Se han identificado los fundamentos y la arquitectura de un framework backend.
+b) Se ha instalado y configurado un entorno de desarrollo adecuado.
+c) Se han creado controladores y gestionado rutas en una aplicación backend.
+d) Se ha implementado la persistencia de datos mediante tecnologías de mapeo objeto-relacional.
+e) Se ha configurado una base de datos y realizado operaciones CRUD desde la aplicación.
+f) Se ha implementado la inyección de dependencias y el uso de servicios en la aplicación.
+g) Se ha aplicado autenticación y autorización en la aplicación.
+
+
+RA4: Desarrolla y modifica una aplicación web básica utilizando el patrón MVC y prueba su API REST.
+
+Criterios de Evaluación:
+a) Se ha implementado una aplicación web básica con operaciones CRUD siguiendo el patrón MVC (Modelo-Vista-Controlador).
+b) Se ha utilizado una tecnología de plantillas para crear vistas dinámicas e integrar los datos del modelo en la interfaz de usuario.
+c) Se ha creado y probado una API REST para manejar las operaciones CRUD utilizando solicitudes HTTP.
+d) Se ha utilizado una herramienta de pruebas para verificar el correcto funcionamiento de la API REST.
+e) Se ha gestionado correctamente la comunicación entre el controlador, el modelo y las vistas en la aplicación.
+
+RA5: Aplica técnicas de prueba en aplicaciones web para garantizar su calidad y correcto funcionamiento.
+
+Criterios de Evaluación:
+a) Se han identificado los diferentes tipos de pruebas en el desarrollo de software (unitarias, de integración, funcionales, etc.).
+b) Se han implementado pruebas unitarias utilizando herramientas adecuadas para el lenguaje de desarrollo.
+c) Se han diseñado y ejecutado pruebas de integración para validar la comunicación entre componentes.
+d) Se han realizado pruebas funcionales para comprobar el comportamiento de la aplicación.
+e) Se han ejecutado pruebas de rendimiento y carga para evaluar la escalabilidad del sistema.
+f) Se han identificado vulnerabilidades mediante pruebas de seguridad en la aplicación.
+g) Se han utilizado herramientas automatizadas para la ejecución de pruebas.
