@@ -61,7 +61,6 @@ sus miembros.
 g) Se han definido y utilizado clases heredadas.
 h) Se han creado y utilizado métodos estáticos.
 i) Se han creado y utilizado conjuntos y librerías de clases.
-
 5. Realiza operaciones de entrada y salida de información, utilizando
 procedimientos específicos del lenguaje y librerías de clases.
 Criterios de evaluación:
@@ -111,8 +110,8 @@ f) Se han probado y depurado las jerarquías de clases.
 g) Se han realizado programas que implementen y utilicen jerarquías de
 clases.
 h) Se ha comentado y documentado el código.
-i) Se han identificado y evaluado los escenarios de uso de interfaces.
-) Se han identificado y evaluado los escenarios de utilización de la herencia
+i) Se han identificado y evaluado los escenarios de uso de interfaces
+j) Se han identificado y evaluado los escenarios de utilización de la herencia
 y la composición.
 8. Utiliza bases de datos orientadas a objetos, analizando sus características
 y aplicando técnicas para mantener la persistencia de la información.
@@ -159,3 +158,98 @@ Identificación de los elementos de un programa informático:
 − Operadores y expresiones.
 − Conversiones de tipo.
 − Comentarios.
+Utilización de objetos:
+− Características de los objetos.
+− Instanciación de objetos.
+− Utilización de métodos. Parámetros.
+− Utilización de propiedades.
+− Utilización de métodos estáticos.
+− Constructores.
+− Destrucción de objetos y liberación de memoria.
+Uso de estructuras de control:
+− Estructuras de selección.
+− Estructuras de repetición.
+− Estructuras de salto.
+− Control de excepciones.
+− Aserciones.
+− Prueba, depuración y documentación de la aplicación.
+Desarrollo de clases:
+− Concepto de clase.
+− Estructura y miembros de una clase. Visibilidad.
+− Creación de propiedades.
+− Creación de métodos.
+− Creación de constructores.
+− Utilización de clases y objetos.
+− Utilización de clases heredadas.
+Lectura y escritura de información:
+− Flujos. Tipos: bytes y caracteres. Clases relacionadas.
+− Ficheros de datos. Registros.
+− Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de
+información en ficheros.
+− Utilización de los sistemas de ficheros.
+− Creación y eliminación de ficheros y directorios.
+− Entrada desde teclado. Salida a pantalla. Formatos de visualización.
+− Interfaces gráficas.
+− Concepto de evento.
+− Creación de controladores de eventos.
+Aplicación de las estructuras de almacenamiento:
+− Estructuras estáticas y dinámicas.
+− Creación de matrices (arrays).
+− Matrices (arrays) multidimensionales.
+− Genericidad.
+− Cadenas de caracteres. Expresiones regulares.
+− Colecciones: Listas, Conjuntos y Diccionarios.
+− Operaciones agregadas: filtrado, reducción y recolección.
+Utilización avanzada de clases:
+− Composición de clases.
+− Herencia y polimorfismo.
+− Jerarquía de clases: Superclases y subclases.
+− Clases y métodos abstractos y finales.
+− Interfaces.
+− Sobreescritura de métodos.
+− Constructores y herencia.
+Mantenimiento de la persistencia de los objetos:
+− Bases de datos orientadas a objetos.
+− Características de las bases de datos orientadas a objetos.
+− Instalación del gestor de bases de datos.
+− Creación de bases de datos.
+− Mecanismos de consulta.
+− El lenguaje de consultas: sintaxis, expresiones, operadores.
+− Recuperación, modificación y borrado de información.
+− Tipos de datos objeto; atributos y métodos.
+− Tipos de datos colección.
+Gestión de bases de datos:
+− Acceso a bases de datos. Estándares. Características.
+− Establecimiento de conexiones.
+− Almacenamiento, recuperación, actualización y eliminación de información
+en bases de datos.
+Orientaciones pedagógicas.
+Este módulo profesional contiene parte de la formación necesaria para
+desempeñar la función de programación de aplicaciones de propósito general en
+lenguajes orientados a objetos.
+La función de programación de aplicaciones de propósito general en lenguajes
+orientados a objetos incluye aspectos como:
+– El desarrollo de programas organizados en clases aplicando los principios
+de la programación orientada a objetos.
+– La utilización de interfaces para la interacción de la aplicación con el
+usuario.
+– La identificación, análisis e integración de librerías para incorporar
+funcionalidades específicas a los programas desarrollados.
+– El almacenamiento y recuperación de información en sistemas gestores de
+bases de datos.
+Las actividades profesionales asociadas a esta función se aplican en el
+desarrollo y la adaptación de programas informáticos de propósito general en
+lenguajes orientados a objetos.
+La formación del módulo contribuye a alcanzar los objetivos generales e), j), q)
+y w) del ciclo formativo y las competencias e), j), t) y w) del título.
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten
+alcanzar los objetivos del módulo versarán sobre:
+– La interpretación y aplicación de los principios de la programación orientada
+a objetos.
+– La evaluación, selección y utilización de herramientas y lenguajes de
+programación orientados a objetos.
+– La utilización de las características específicas de lenguajes y entornos de
+programación en el desarrollo de aplicaciones informáticas.
+– La identificación de las funcionalidades aportadas por los sistemas gestores
+de bases de datos y su incorporación a las aplicaciones desarrolladas.
+– La prueba, depuración y documentación de las aplicaciones desarrolladas
